@@ -1,0 +1,48 @@
+/home/user/.local/lib/python3.14/site-packages/ratelimit
+sudo chmod +x /home/user/.local/lib/python3.14/site-packages/ratelimit
+#ADD execute permissions to all files in ratelimit
+python3 -m pip install ratelimit
+
+
+/home/user/.jwt_tool/jwtconf.ini
+
+[argvals]
+#Set at runtime - changes here are ignored
+sigType =
+targetUrl =
+rate = 10
+cookies =
+key =
+keyList =
+keyFile =
+headerLoc =
+payloadclaim =
+headerclaim =
+payloadvalue =
+headervalue =
+canaryvalue =
+header =
+exploitType =
+scanMode =
+reqMode =
+postData =
+resCode =
+resSize =
+resContent =
+overridesub = false
+
+Under Services ADD:
+redir = True
+proxy = False
+jwksloc =
+jwksdynamic = https://httpbin.org/base64/
+httplistener =
+
+[input]
+wordlist = /opt/jwt_tool/jwt-common.txt
+commonHeaders = /opt/jwt_tool/common-headers.txt
+commonPayloads = /opt/jwt_tool/common-payloads.txt
+
+#Copy/Download jwt-common.txt directly from github
+#Always RUN tool from inside jwt_tool directory to avoid errors.
+
