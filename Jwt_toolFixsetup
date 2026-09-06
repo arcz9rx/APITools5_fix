@@ -1,3 +1,7 @@
+#To fix the warnings 
+
+
+
 /home/user/.local/lib/python3.14/site-packages/ratelimit
 sudo chmod +x /home/user/.local/lib/python3.14/site-packages/ratelimit
 #ADD execute permissions to all files in ratelimit
