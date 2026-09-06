@@ -1,0 +1,8 @@
+#Error: The following errors means Docker-Compose sees the highlighted variables aren't defined in the environment.
+cd vapi
+
+nano .env
+#If missing we must create the .env file and add the attributes: 
+APP_NAME=vAPI
+PUSHER_APP_KEY=local
+PUSHER_APP_CLUSTER=mt1
