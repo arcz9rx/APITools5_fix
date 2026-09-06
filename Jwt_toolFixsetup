@@ -44,5 +44,7 @@ commonHeaders = /opt/jwt_tool/common-headers.txt
 commonPayloads = /opt/jwt_tool/common-payloads.txt
 
 #Copy/Download jwt-common.txt directly from github
+https://github.com/ticarpi/jwt_tool/blob/master/jwt-common.txt 
+
 #Always RUN tool from inside jwt_tool directory to avoid errors.
 
